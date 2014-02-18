@@ -1,9 +1,11 @@
-package snakeGame;
+package snakeGame.gameObject;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.util.Random;
+
+import snakeGame.SnakePanel;
 
 public class Bug {
 	private static int x = 0, y = 0;

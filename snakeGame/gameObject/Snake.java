@@ -1,8 +1,11 @@
-package snakeGame;
+package snakeGame.gameObject;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Rectangle;
+
+import snakeGame.SnakePanel;
+import snakeGame.utility.Direction;
 
 public class Snake {
 	private static final int MAX_SIZE = 200;

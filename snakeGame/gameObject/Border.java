@@ -1,8 +1,10 @@
-package snakeGame;
+package snakeGame.gameObject;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Rectangle;
+
+import snakeGame.utility.LevelCreator;
 
 public class Border {
 

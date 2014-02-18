@@ -11,10 +11,16 @@ import java.awt.event.KeyEvent;
 
 import javax.swing.JPanel;
 
+import snakeGame.gameObject.Border;
+import snakeGame.gameObject.Bug;
+import snakeGame.gameObject.Snake;
+import snakeGame.utility.Direction;
+import snakeGame.utility.LevelCreator;
+
 public class SnakePanel extends JPanel implements Runnable {
 	private static final long serialVersionUID = 6892533030374996243L;
-	static final int WIDTH = 800;
-	static final int HEIGHT = 600;
+	public static final int WIDTH = 800;
+	public static final int HEIGHT = 600;
 
 	private Thread animator;
 	private Thread timeThread;
