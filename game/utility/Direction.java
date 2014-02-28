@@ -1,4 +1,4 @@
-package snakeGame.utility;
+package game.utility;
 
 public enum Direction
 {

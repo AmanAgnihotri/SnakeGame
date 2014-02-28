@@ -1,4 +1,4 @@
-package snakeGame;
+package game;
 
 import java.awt.GridBagLayout;
 import java.awt.event.WindowAdapter;

@@ -1,4 +1,4 @@
-package snakeGame.gameObject;
+package game.component;
 
 import java.awt.Color;
 import java.awt.Graphics;

@@ -1,4 +1,4 @@
-package snakeGame.utility;
+package game.utility;
 
 import java.awt.Rectangle;
 import java.io.BufferedReader;
